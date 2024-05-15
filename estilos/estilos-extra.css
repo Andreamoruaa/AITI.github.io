@@ -1,0 +1,34 @@
+#oferta-educativa {
+    display: flex;
+    flex-direction: column;
+}
+
+#item {
+    display: flex;
+    flex-direction: column;
+}
+
+#oferta-texto {
+    display: flex;
+    justify-content: space-around;
+}
+
+#oferta-texto a:link {
+    background-color: #ffb34f;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 25vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#oferta-texto a:hover {
+    background-color: #00106d;
+    color: #ffffff;
+}
+
+#requisitos {
+    flex-direction: row;
+}
